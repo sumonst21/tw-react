@@ -7,7 +7,9 @@ class Header extends Component {
     return (
       <div className='header'>
         <header className='header'>
-            <img src={logo} className='header-logo' alt='logo' />
+            <a href={'https://timwheeler.com'} target={'_blank'}>
+                <img src={logo} className='header-logo' alt='logo' />
+            </a>
             <ul className={'nav-menu'}>
                 <a href="#"><li className={'nav-menu-item'}>Projects</li></a>
                 <a href="#"><li id={'contact-cta'} className={'nav-menu-item'}>Contact</li></a>
