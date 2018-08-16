@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+import logo from '../img/tw-logo-white.svg';
+import '../css/App.css';
+
+class Header extends Component {
+  render() {
+    return (
+      <div className='header'>
+        <header className='header'>
+            <img src={logo} className='header-logo' alt='logo' />
+            <ul className={'nav-menu'}>
+                <a href="#"><li className={'nav-menu-item'}>Projects</li></a>
+                <a href="#"><li id={'contact-cta'} className={'nav-menu-item'}>Contact</li></a>
+            </ul>
+        </header>
+      </div>
+    );
+  }
+}
+
+export default Header;

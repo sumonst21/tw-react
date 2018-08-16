@@ -1,0 +1,61 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+a {
+    font-style: unset;
+    color: inherit;
+}
+
+.header {
+  background-color: #c8102e;
+  height: 80px;
+  color: #fff;
+}
+
+.header-logo{
+    height: 80px;
+    margin-left: 50px;
+}
+
+.header-title {
+  font-size: 1.5em;
+}
+
+.header-subtitle {
+  font-size: large;
+}
+
+.nav-menu,
+.nav-menu-item{
+    display: inline-block;
+}
+
+.nav-menu {
+    float: right;
+    margin-right: 50px;
+}
+
+.nav-menu-item{
+    padding: 10px 40px;
+}
+
+#contact-cta{
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    /*transition: background-color 0.5ms ease-in-out;*/
+    transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear; /* Firefox 4 */
+    -webkit-transition: background-color 0.5s linear; /* Safari and Chrome */
+    -o-transition: background-color 0.5s linear; /* Opera */
+    -ms-transition: background-color 0.5s linear; /* Explorer 10 */
+}
+
+#contact-cta:hover{
+    background-color: #fff;
+    color: #c8102e;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: background-color 0.5ms ease-in-out;
+}
