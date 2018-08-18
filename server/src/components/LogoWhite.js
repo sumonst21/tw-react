@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import logo from '../img/tw-logo-white.svg'
+import logo from '../img/tw-official-logo-white.svg'
 
 class LogoWhite extends Component {
     render() {

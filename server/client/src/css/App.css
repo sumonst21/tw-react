@@ -1,5 +1,4 @@
 * {
-    /*font-family: 'Varela Round', sans-serif;*/
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
     box-sizing: border-box;
@@ -11,10 +10,19 @@ a {
     color: inherit;
 }
 
+#root {
+    margin-top: 60px;
+}
+
+button:focus {
+    outline: none;
+    background-color: #fff;
+}
+
 .header {
     background-color: #c8102e;
     border-bottom: 3px solid #af0f19;
-    height: 50px;
+    height: 60px;
     color: #fff;
     box-shadow: 0 0 20px #252525;
     z-index: 9999;
@@ -24,7 +32,7 @@ a {
 }
 
 .header-logo{
-    height: 45px;
+    height: 55px;
     padding: 5px 20px;
     opacity: 1.0;
     transition: opacity 0.5s ease-in-out;
@@ -76,11 +84,21 @@ a {
     color: #c8102e;
     outline: none;
     display: block;
-    margin: 10px auto;
+    margin: 25px auto;
     box-shadow: 0 0 35px 0 rgba(0,0,0,0.5);
     text-transform: uppercase;
     border: none;
+    letter-spacing: 3px;
 }
+
+.blog-link,
+.projects-link{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
 
 #contact-cta{
     background-color: #fff;
@@ -107,23 +125,21 @@ a {
     /*opacity: 0.91;*/
 /*}*/
 .hero{
-    background-size: cover;
-    background: url('../img/tw-consultant.svg') no-repeat;
-    min-height: 500px;
+    background-size: contain;
+    background: url('../img/tw-consultant.svg') no-repeat center center;
     height: 100vh;
-    clear: both;
-
 }
-.hero:before {
+
+.hero-overlay {
     content: "";
     position: fixed;
     left: 0; right: 0;
     top: 0; bottom: 0;
     background: rgba(200, 16, 46, 0.91);
 }
+
 .hero-container{
     padding: 50px 25px;
-    /*min-height: 500px;*/
 }
 
 .hero-text{
@@ -135,7 +151,7 @@ a {
 }
 
 .hero-title{
-    padding: 50px;
+    padding: 20px 50px;
     text-align: center;
     font-size: 50px;
 }
@@ -148,3 +164,11 @@ a {
     text-align: center;
 }
 
+.homepage-logos {
+    width: 50px;
+    height: 50px;
+}
+
+.homepage-logos:first-child{
+    margin-top: 20px;
+}
