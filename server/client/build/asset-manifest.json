@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.7fee2a09.css",
-  "main.css.map": "static/css/main.7fee2a09.css.map",
-  "main.js": "static/js/main.7ac293ef.js",
-  "main.js.map": "static/js/main.7ac293ef.js.map",
+  "main.css": "static/css/main.89932b1b.css",
+  "main.css.map": "static/css/main.89932b1b.css.map",
+  "main.js": "static/js/main.691dba64.js",
+  "main.js.map": "static/js/main.691dba64.js.map",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.eed9aab5.woff",
   "static/media/Roboto-Bold.woff2": "static/media/Roboto-Bold.c0f1e4a4.woff2",
   "static/media/Roboto-Light.woff": "static/media/Roboto-Light.ea36cd9a.woff",
@@ -13,8 +13,10 @@
   "static/media/Roboto-Regular.woff2": "static/media/Roboto-Regular.5136cbe6.woff2",
   "static/media/Roboto-Thin.woff": "static/media/Roboto-Thin.44b78f14.woff",
   "static/media/Roboto-Thin.woff2": "static/media/Roboto-Thin.1f35e6a1.woff2",
+  "static/media/tw-codesnippet.svg": "static/media/tw-codesnippet.b36392b2.svg",
   "static/media/tw-consultant.svg": "static/media/tw-consultant.cea2bbff.svg",
   "static/media/tw-github.svg": "static/media/tw-github.d0a1965a.svg",
   "static/media/tw-linkedin.svg": "static/media/tw-linkedin.23ace475.svg",
-  "static/media/tw-official-logo-white.svg": "static/media/tw-official-logo-white.177bec20.svg"
+  "static/media/tw-official-logo-white.svg": "static/media/tw-official-logo-white.177bec20.svg",
+  "static/media/tw-strtup.svg": "static/media/tw-strtup.ee2606f1.svg"
 }
