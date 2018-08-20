@@ -140,6 +140,8 @@ button:focus {
 
 .hero-container{
     padding: 50px 25px;
+    height: 100vh;
+    width: auto;
 }
 
 .hero-text{
