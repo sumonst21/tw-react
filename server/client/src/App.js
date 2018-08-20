@@ -6,7 +6,7 @@ import About from './components/views/About';
 import Projects from './components/views/Projects';
 import Contact from './components/views/Contact';
 
-import Header from './components/Header'
+// import Header from './components/Header'
 
 
 class App extends Component {
@@ -18,7 +18,6 @@ class App extends Component {
           <Route exact path={'/about'} component={About}/>
           <Route exact path={'/projects'} component={Projects}/>
           <Route exact path={'/contact'} component={Contact}/>
-
         </div>
       </BrowserRouter>
     );

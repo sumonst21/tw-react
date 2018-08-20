@@ -10,9 +10,9 @@ a {
     color: inherit;
 }
 
-#root {
-    margin-top: 60px;
-}
+/*#root {*/
+    /*margin-top: 60px;*/
+/*}*/
 
 button:focus {
     outline: none;
@@ -132,7 +132,7 @@ button:focus {
 
 .hero-overlay {
     content: "";
-    position: fixed;
+    /*position: fixed;*/
     left: 0; right: 0;
     top: 0; bottom: 0;
     background: rgba(200, 16, 46, 0.91);
@@ -165,10 +165,8 @@ button:focus {
 }
 
 .homepage-logos {
-    width: 50px;
     height: 50px;
-}
-
-.homepage-logos:first-child{
-    margin-top: 20px;
+    width: auto;
+    padding: 0 10px;
+    margin-bottom: 5px;
 }
