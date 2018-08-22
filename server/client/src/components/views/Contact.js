@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from "../Header";
 import Form from '../Form';
+import '../../css/App.css'
 
 class Contact extends Component {
   render () {
@@ -8,7 +9,6 @@ class Contact extends Component {
         <div>
             <Header/>
             <div className={'container'}>
-
               <h1>Contact</h1>
                 <Form/>
             </div>
