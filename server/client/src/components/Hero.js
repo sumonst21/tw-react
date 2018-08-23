@@ -3,7 +3,7 @@ import '../css/App.css';
 import LogoWhite from "./LogoWhite";
 import Button from './Button';
 import styled from 'styled-components';
-// import TypeIt from 'typeit';
+import TypeIt from 'typeit';
 import TypeWriterText from './TypeWriterText';
 import GitHub from '../img/tw-github.svg';
 import LinkedIn from '../img/tw-linkedin.svg';
@@ -12,7 +12,6 @@ import Strtup from '../img/tw-strtup.svg';
 import BackgroundImg from '../img/tw-consultant.svg';
 import '../css/_variables.scss';
 import '../css/hover.css';
-
 
 const HeroSection = styled.section`
 	background-size: contain;
@@ -78,7 +77,8 @@ class Hero extends Component {
                   <div>
 	                  <HeroTitle>
 		                  <TypeWriterText
-			                  strings={['developer();']}
+
+			                  strings={'developer();'}
 			                  speed={100}
 	                  		/>
 		                  <div id={'type-it'}/>

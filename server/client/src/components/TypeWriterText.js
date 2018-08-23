@@ -9,7 +9,7 @@ class TypeWriterText extends Component {
 		new TypeIt(this.el, this.props);
 	}
 	render(){
-		return <span ref={(el) => { this.el = el; }}>{this.props.children}</span>;
+		return <span ref={(el) => { this.el = el; }}>{this.props.strings}</span>;
 	}
 }
 

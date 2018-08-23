@@ -5,7 +5,7 @@ import Hero from '../Hero'
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className={'container'}>
         <Hero/>
       </div>
     );

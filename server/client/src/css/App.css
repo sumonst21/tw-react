@@ -9,3 +9,9 @@ a {
     font-style: unset;
     color: inherit;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}

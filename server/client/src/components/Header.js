@@ -10,7 +10,7 @@ const HeaderSection = styled.header`
 	color: #fff;
 	box-shadow: 0 0 20px #252525;
 	z-index: 9999;
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	top: 0;
 `;
@@ -35,23 +35,23 @@ const NavMenu = styled.ul`
 
 const NavMenuItem = styled.li`
     padding: 5px 10px 5px 10px;
-    display: inline-block;  
+    display: inline-block;
+    font-size: 18px;
     
         &#contact-cta{
             background-color: #fff;
 	        color: #c8102e;
-	        border: 2px solid #fff;
-	        border-bottom: 4px solid #eeeeee;
 	        padding: 5px 20px;
 	        margin-left: 10px;
-	        border-radius: 4px;
-            transition: background-color 0.5s ease-in-out;
+	        // border-radius: 4px;
+            transition: opacity 0.3s ease-in-out;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
         &#contact-cta:hover{
-            border: 2px solid #fff;
-            border-bottom: 3px solid #eee;
+            opacity: 0.85;
+            // border: 2px solid #fff;
+            // border-bottom: 3px solid #eee;
         }
 `;
 
