@@ -10,6 +10,9 @@ import LinkedIn from '../img/tw-linkedin.svg';
 import CodeSnippet from '../img/tw-codesnippet.svg';
 import Strtup from '../img/tw-strtup.svg';
 import BackgroundImg from '../img/tw-consultant.svg';
+import '../css/_variables.scss';
+import '../css/hover.css';
+
 
 const HeroSection = styled.section`
 	background-size: contain;
@@ -27,19 +30,18 @@ const HeroOverlay = styled.div`
 `;
 
 const HeroTitle = styled.h1`
-	padding: 20px 50px;
+	padding: 20px 50px 0;
 	text-align: center;
 	font-size: 50px;
 `;
 const HomepageLogo = styled.img`
-	height: 50px;
+	height: 35px;
 	width: auto;
 	padding: 0 10px;
-	margin-bottom: 5px;
 `;
 
 const HeroContainer = styled.div`
-	padding: 50px 25px;
+	padding: 10px;
 	height: 100vh;
 	width: auto;
 `;
@@ -52,10 +54,17 @@ const HeroText = styled.div`
 	text-align: center;
 `;
 
+const CreatorSection = styled.div`
+	margin-top: 25px;
+	h5{
+		font-size: 16px;
+	}
+`;
+
 const Links = styled.div`
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin: 10px 0;
 `;
 
 class Hero extends Component {
@@ -69,13 +78,13 @@ class Hero extends Component {
                   <div>
 	                  <HeroTitle>
 		                  <TypeWriterText
-	                  			strings="developer();"
-	                  			speed={100}
+			                  strings={['developer();']}
+			                  speed={100}
 	                  		/>
 		                  <div id={'type-it'}/>
 	                  </HeroTitle>
                   </div>
-                  <Button className={'btn-contact hvr hvr-grow'} text={'Let\'s Work Together'} href={'/contact'}/>
+                  <Button className={'btn-contact hvr-float'} text={'Let\'s Work Together'} href={'/contact'}/>
                   <Links>
                     <a href={'/projects'} style={{textDecoration: 'none'}}>VIEW PROJECTS</a>
                   </Links>
@@ -90,7 +99,7 @@ class Hero extends Component {
                       <HomepageLogo className={'hvr-float'} src={LinkedIn} alt={'LinkedIn Logo'} />
                     </a>
                   </div>
-                  <div className={'creator-section'}>
+                  <CreatorSection>
 	                  <h5>CREATOR OF:</h5>
 	                  <div>
 		                  <a href={'https://codesnippet.io'} target={'_blank'}>
@@ -102,7 +111,7 @@ class Hero extends Component {
 			                  <HomepageLogo src={Strtup} alt={'Strtup Logo'} />
 		                  </a>
 	                  </div>
-                  </div>
+                  </CreatorSection>
                 </HeroText>
               </HeroContainer>
             </HeroOverlay>

@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const Logo = styled.img`
     height: 200px;
     width: auto;
+    margin-bottom: -65px;
     padding: 20px;
     opacity: 1.0;
     transition: opacity 0.5s ease-in-out;
