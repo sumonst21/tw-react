@@ -12,6 +12,7 @@ import Strtup from '../img/tw-strtup.svg';
 import BackgroundImg from '../img/tw-consultant.svg';
 import '../css/_variables.scss';
 import '../css/hover.css';
+import ContactModal from "./ContactModal";
 
 const HeroSection = styled.section`
 	background-size: contain;
@@ -67,6 +68,17 @@ const Links = styled.div`
 `;
 
 class Hero extends Component {
+	constructor(){
+		super();
+		this.state = {
+			showModal: false
+		}
+	}
+	toggleModal() {
+		this.setState({
+			showModal: !this.state.showModal
+		});
+	}
     render() {
         return (
           <HeroSection>
@@ -84,7 +96,7 @@ class Hero extends Component {
 		                  <div id={'type-it'}/>
 	                  </HeroTitle>
                   </div>
-                  <Button className={'btn-contact hvr-float'} text={'Let\'s Work Together'} href={'/contact'}/>
+                  <Button onClick={this.toggleModal.bind(this)} className={'btn-contact hvr-float'} text={'Let\'s Work Together'}/>
                   <Links>
                     <a href={'/projects'} style={{textDecoration: 'none'}}>VIEW PROJECTS</a>
                   </Links>
@@ -115,6 +127,15 @@ class Hero extends Component {
                 </HeroText>
               </HeroContainer>
             </HeroOverlay>
+
+	          {this.state.showModal ?
+	            <ContactModal
+	                title={'Reach Out'}
+	                closeModal={this.toggleModal.bind(this)}
+	            />
+		          :null
+	          }
+
           </HeroSection>
         );
     }

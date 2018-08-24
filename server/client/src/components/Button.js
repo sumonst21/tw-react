@@ -25,7 +25,7 @@ const Btn = styled.button`
 
 class Button extends Component {
     render() {
-      return <a href={this.props.href}><Btn type={this.props.type} className={this.props.className}>{this.props.text}</Btn></a>
+      return <a onClick={this.props.onClick} href={this.props.href}><Btn type={this.props.type} className={this.props.className}>{this.props.text}</Btn></a>
     }
 }
 
