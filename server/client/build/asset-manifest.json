@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.ed1b6c5c.css",
   "main.css.map": "static/css/main.ed1b6c5c.css.map",
-  "main.js": "static/js/main.8b9dbbfb.js",
-  "main.js.map": "static/js/main.8b9dbbfb.js.map",
+  "main.js": "static/js/main.e7b082b3.js",
+  "main.js.map": "static/js/main.e7b082b3.js.map",
   "static/media/MaterialIcons-Regular.eot": "static/media/MaterialIcons-Regular.e79bfd88.eot",
   "static/media/MaterialIcons-Regular.ttf": "static/media/MaterialIcons-Regular.a37b0c01.ttf",
   "static/media/MaterialIcons-Regular.woff": "static/media/MaterialIcons-Regular.012cf6a1.woff",
@@ -13,6 +13,7 @@
   "static/media/tw-github.svg": "static/media/tw-github.d0a1965a.svg",
   "static/media/tw-linkedin.svg": "static/media/tw-linkedin.23ace475.svg",
   "static/media/tw-official-logo-white.svg": "static/media/tw-official-logo-white.177bec20.svg",
+  "static/media/tw-official-logo.svg": "static/media/tw-official-logo.6c93836c.svg",
   "static/media/tw-project-chatbox.jpg": "static/media/tw-project-chatbox.432892a6.jpg",
   "static/media/tw-project-twitch-api.jpg": "static/media/tw-project-twitch-api.e012994a.jpg",
   "static/media/tw-project-weather-app.jpg": "static/media/tw-project-weather-app.acfb87e4.jpg",
