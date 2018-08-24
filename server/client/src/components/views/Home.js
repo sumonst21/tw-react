@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import '../../css/App.css';
+import TransparentHeader from '../TransparentHeader';
 import Hero from '../Hero'
 
 class Home extends Component {
   render() {
     return (
-      <div className={'container'}>
-        <Hero/>
+      <div>
+          <TransparentHeader/>
+          <div className={'container'}>
+            <Hero/>
+          </div>
       </div>
     );
   }

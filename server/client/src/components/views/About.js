@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 import Header from "../Header";
+import PageTitle from '../PageTitle';
 
 class About extends Component{
   render() {
     return (
       <div>
         <Header/>
-        {/*<Navbar/>*/}
           <div className={'container'}>
-            <h1>About</h1>
+            <PageTitle pageTitle={'About'}/>
           </div>
       </div>
     )

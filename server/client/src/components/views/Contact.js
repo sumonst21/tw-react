@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from "../Header";
+import PageTitle from '../PageTitle';
 import Form from '../Form';
 import '../../css/App.css'
 
@@ -9,7 +10,7 @@ class Contact extends Component {
         <div>
             <Header/>
             <div className={'container'}>
-              <h1>Contact</h1>
+              <PageTitle pageTitle={'Contact'}/>
                 <Form/>
             </div>
         </div>

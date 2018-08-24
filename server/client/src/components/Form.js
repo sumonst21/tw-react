@@ -59,7 +59,7 @@ class Form extends Component {
 				<input id={'emailInput'} type={'text'} placeholder={'Email'}/>
 				<input id={'phoneInput'} type={'text'} placeholder={'Phone'}/>
 				<input id={'messageInput'} type={'text'} placeholder={'Message'}/>
-				<Btn type={'submit'} className={'hvr-float'} placeholder={'Get Started'}/>
+				<Btn type={'submit'} style={{width: '100%'}} className={'hvr-float'} placeholder={'Get Started'}/>
 			</ContactForm>
 		)
 	}

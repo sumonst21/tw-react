@@ -3,12 +3,10 @@ import logo from '../img/tw-official-logo-white.svg';
 import '../css/App.css';
 import styled from 'styled-components';
 
-const HeaderSection = styled.header`
-    background-color: #c8102e;
-	border-bottom: 3px solid #af0f19;
+const TransparentHeaderSection = styled.header`
+  background-color: transparent;
 	height: 60px;
 	color: #fff;
-	box-shadow: 0 0 20px #252525;
 	z-index: 9999;
 	position: sticky;
 	width: 100%;
@@ -29,12 +27,12 @@ const HeaderLogo = styled.img`
 const NavMenu = styled.ul`
     display: inline-block;
     float: right;
-	margin-right: 50px;
-	margin-top: 8px;
+	  margin-right: 50px;
+	  margin-top: 8px;
 	
-	@media (max-width: 500px) {
-	    display: none;
-	}
+    @media (max-width: 500px) {
+        display: none;
+    }
 	
 `;
 
@@ -62,9 +60,9 @@ const NavMenuItem = styled.li`
 
 const MobileNavMenu = styled.ul`
   
-  background: #c8102e;
+  background: #fff;
   opacity: 0.95
-  color: #fff;
+  color: #333;
   margin-top: -1px;
   padding: 20px !important;
   text-align: center;
@@ -72,14 +70,14 @@ const MobileNavMenu = styled.ul`
 `;
 
 const MobileNavMenuItem = styled.ul`
-    
+  
     padding: 5px 10px 5px 10px;
     display: block;
     font-size: 18px;
     
         &#contact-cta{
-          background-color: #fff;
-	        color: #333;
+          background-color: #c8102e;
+	        color: #fff;
 	        padding: 5px 20px;
           transition: opacity 0.3s ease-in-out;
           text-transform: uppercase;
@@ -105,7 +103,7 @@ const MobileNavMenuToggle = styled.i`
 `;
 
 
-class Header extends Component {
+class TransparentHeader extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -119,7 +117,7 @@ class Header extends Component {
   }
   render() {
     return (
-        <HeaderSection>
+        <TransparentHeaderSection>
             <a href={'/'}>
                 <HeaderLogo src={logo} alt='logo' />
             </a>
@@ -137,9 +135,9 @@ class Header extends Component {
             </MobileNavMenu>
             :null
           }
-        </HeaderSection>
+        </TransparentHeaderSection>
     );
   }
 }
 
-export default Header;
+export default TransparentHeader;
