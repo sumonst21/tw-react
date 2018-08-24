@@ -20,8 +20,28 @@ const Popup = styled.div`
 	right: 20%;
 	bottom: 20%;
 	left: 20%;
+	max-width: 600px;
+	max-height: 500px;
 	margin: auto;
 	background: #fff;
+	
+	// Override default styling for Button.js component
+	input[type=submit]{
+		width: 100%;
+		box-shadow: none !important;
+	}
+	
+`;
+
+const ClosePopupButton = styled.button`
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 10px;
+	background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 900;
 `;
 
 class ContactModal extends Component{
@@ -29,9 +49,9 @@ class ContactModal extends Component{
 		return (
 			<PopupMat>
 				<Popup className={'container'}>
+          <ClosePopupButton onClick={this.props.closeModal}>X</ClosePopupButton>
 					<h3 style={{textAlign: 'center'}}>{this.props.title}</h3>
 					<Form/>
-					<button onClick={this.props.closeModal}>X</button>
 				</Popup>
 			</PopupMat>
 		)

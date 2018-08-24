@@ -6,6 +6,7 @@ class About extends Component{
     return (
       <div>
         <Header/>
+        {/*<Navbar/>*/}
           <div className={'container'}>
             <h1>About</h1>
           </div>

@@ -3,7 +3,6 @@ import '../css/App.css';
 import LogoWhite from "./LogoWhite";
 import Button from './Button';
 import styled from 'styled-components';
-import TypeIt from 'typeit';
 import TypeWriterText from './TypeWriterText';
 import GitHub from '../img/tw-github.svg';
 import LinkedIn from '../img/tw-linkedin.svg';
@@ -30,7 +29,7 @@ const HeroOverlay = styled.div`
 `;
 
 const HeroTitle = styled.h1`
-	padding: 20px 50px 0;
+	padding: 10px 0 0;
 	text-align: center;
 	font-size: 50px;
 `;
@@ -46,7 +45,7 @@ const HeroContainer = styled.div`
 	width: auto;
 `;
 
-const HeroText = styled.div`
+const HeroContent = styled.div`
 	z-index: 1;
 	position: relative;
 	color: #fff;
@@ -81,10 +80,10 @@ class Hero extends Component {
 	}
     render() {
         return (
-          <HeroSection>
+          <HeroSection className={'container'}>
             <HeroOverlay>
-              <HeroContainer>
-                <HeroText>
+              <HeroContainer className={'row valign-wrapper'}>
+                <HeroContent className={'col m12'}>
                   <LogoWhite/>
                   <div>
 	                  <HeroTitle>
@@ -124,7 +123,7 @@ class Hero extends Component {
 		                  </a>
 	                  </div>
                   </CreatorSection>
-                </HeroText>
+                </HeroContent>
               </HeroContainer>
             </HeroOverlay>
 

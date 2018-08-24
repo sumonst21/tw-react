@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import '../css/App.css'
+import '../css/_variables.scss';
 import styled from "styled-components";
 import '../css/hover.css'
-// import '../css/_variables.scss'
 
 const Btn = styled.input`
     font-size: 20px;
@@ -28,6 +28,11 @@ const ContactForm = styled.form`
 	max-width: 500px;
 	display: block;
 	margin: 0 auto;
+	
+	input[type=text]{
+		font-size: 20px;
+	}
+	
 `;
 
 class Form extends Component {
@@ -42,11 +47,6 @@ class Form extends Component {
 					console.log('Please complete the form');
 				} else {
 					console.log(inputs[i].value);
-					// console.log(document.getElementById('firstNameInput').value);
-					// console.log(document.getElementById('lastNameInput').value);
-					// console.log(document.getElementById('emailInput').value);
-					// console.log(document.getElementById('phoneInput').value);
-					// console.log(document.getElementById('messageInput').value);
 				}
 			}
 
@@ -54,8 +54,8 @@ class Form extends Component {
 
 		return (
 			<ContactForm onSubmit={handleSubmit}>
-				<input id={'firstNameInput'} type={'text'} style={{width: '49%', marginRight: '1%'}} placeholder={'First Name'}/>
-				<input id={'lastNameInput'} type={'text'} style={{width: '50%'}} placeholder={'Last Name'}/>
+				<input id={'firstNameInput'} type={'text'} style={{width: '49%', marginRight: '2%'}} placeholder={'First Name'}/>
+				<input id={'lastNameInput'} type={'text'} style={{width: '49%'}} placeholder={'Last Name'}/>
 				<input id={'emailInput'} type={'text'} placeholder={'Email'}/>
 				<input id={'phoneInput'} type={'text'} placeholder={'Phone'}/>
 				<input id={'messageInput'} type={'text'} placeholder={'Message'}/>

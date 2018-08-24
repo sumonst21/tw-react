@@ -31,6 +31,11 @@ const NavMenu = styled.ul`
     float: right;
 	margin-right: 50px;
 	margin-top: 8px;
+	
+	@media (max-width: 500px) {
+	    display: none;
+	}
+	
 `;
 
 const NavMenuItem = styled.li`
@@ -55,10 +60,63 @@ const NavMenuItem = styled.li`
         }
 `;
 
+const MobileNavMenu = styled.ul`
+  
+  background: #c8102e;
+  opacity: 0.95
+  color: #333;
+  margin-top: -1px;
+  padding: 20px !important;
+  text-align: center;
 
+`;
+
+const MobileNavMenuItem = styled.ul`
+  
+    padding: 5px 10px 5px 10px;
+    display: block;
+    font-size: 18px;
+    
+        &#contact-cta{
+          background-color: #fff;
+	        color: #333;
+	        padding: 5px 20px;
+	        margin-left: 10px;
+          transition: opacity 0.3s ease-in-out;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        &#contact-cta:hover{
+            opacity: 0.85;
+        }
+`;
+
+const MobileNavMenuToggle = styled.i`
+  float: right;
+  display: none !important;
+  line-height: 1.9 !important;
+  font-size: 30px !important;
+  padding-right: 20px;
+  
+  @media (max-width: 500px) {
+	    display: block !important;
+	    
+	}
+`;
 
 
 class Header extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      showMobileMenu: false
+    }
+  }
+  toggleMobileMenu() {
+    this.setState({
+      showMobileMenu: !this.state.showMobileMenu
+    });
+  }
   render() {
     return (
         <HeaderSection>
@@ -70,6 +128,15 @@ class Header extends Component {
                 <a href="/projects"><NavMenuItem>Projects</NavMenuItem></a>
                 <a href="/contact"><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
             </NavMenu>
+            <MobileNavMenuToggle onClick={this.toggleMobileMenu.bind(this)} className={'material-icons'}>menu</MobileNavMenuToggle>
+          {this.state.showMobileMenu ?
+            <MobileNavMenu>
+              <a href="/about"><MobileNavMenuItem>About</MobileNavMenuItem></a>
+              <a href="/projects"><MobileNavMenuItem>Projects</MobileNavMenuItem></a>
+              <a href="/contact"><MobileNavMenuItem id={'contact-cta'}>Let's Chat</MobileNavMenuItem></a>
+            </MobileNavMenu>
+            :null
+          }
         </HeaderSection>
     );
   }
