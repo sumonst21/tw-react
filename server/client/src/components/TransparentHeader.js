@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../img/tw-official-logo-white.svg';
 import '../css/App.css';
 import styled from 'styled-components';
+import ContactModal from './ContactModal';
 
 const TransparentHeaderSection = styled.header`
   background-color: transparent;
@@ -11,6 +12,15 @@ const TransparentHeaderSection = styled.header`
 	position: sticky;
 	width: 100%;
 	top: 0;
+	
+	h3{
+	  color: #333;
+	}
+	
+	.closeButton{
+	  color: #333;
+	}
+	
 `;
 
 const HeaderLogo = styled.img`
@@ -42,20 +52,25 @@ const NavMenuItem = styled.li`
     font-size: 18px;
     
         &#contact-cta{
-            background-color: #fff;
-	        color: #c8102e;
-	        padding: 5px 20px;
-	        margin-left: 10px;
-	        // border-radius: 4px;
+            background-color: #c8102e;
+	          color: #fff;
+	          padding: 5px 20px;
             transition: opacity 0.3s ease-in-out;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
         &#contact-cta:hover{
             opacity: 0.85;
-            // border: 2px solid #fff;
-            // border-bottom: 3px solid #eee;
         }
+        
+        @media (min-width: 501px) {
+          &#contact-cta{
+            background-color: #fff;
+            color: #c8102e;          
+          }
+        }
+        
+        
 `;
 
 const MobileNavMenu = styled.ul`
@@ -107,7 +122,8 @@ class TransparentHeader extends Component {
   constructor(props){
     super(props);
     this.state = {
-      showMobileMenu: false
+      showMobileMenu: false,
+      showModal: false
     }
   }
   toggleMobileMenu() {
@@ -115,6 +131,13 @@ class TransparentHeader extends Component {
       showMobileMenu: !this.state.showMobileMenu
     });
   }
+
+  toggleModal() {
+    this.setState({
+      showModal: !this.state.showModal
+    });
+  }
+
   render() {
     return (
         <TransparentHeaderSection>
@@ -124,15 +147,24 @@ class TransparentHeader extends Component {
             <NavMenu>
                 <a href="/about"><NavMenuItem>About</NavMenuItem></a>
                 <a href="/projects"><NavMenuItem>Projects</NavMenuItem></a>
-                <a href="/contact"><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
+                <a onClick={this.toggleModal.bind(this)}><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
             </NavMenu>
             <MobileNavMenuToggle onClick={this.toggleMobileMenu.bind(this)} className={'material-icons'}>menu</MobileNavMenuToggle>
+          {/* MOBILE MENU */}
           {this.state.showMobileMenu ?
             <MobileNavMenu>
               <a href="/about"><MobileNavMenuItem>About</MobileNavMenuItem></a>
               <a href="/projects"><MobileNavMenuItem>Projects</MobileNavMenuItem></a>
-              <a href="/contact"><MobileNavMenuItem id={'contact-cta'}>Let's Chat</MobileNavMenuItem></a>
+              <a onClick={this.toggleModal.bind(this)}><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
             </MobileNavMenu>
+            :null
+          }
+          {/* CONTACT MODAL*/}
+          {this.state.showModal ?
+            <ContactModal
+              title={'Reach Out'}
+              closeModal={this.toggleModal.bind(this)}
+            />
             :null
           }
         </TransparentHeaderSection>

@@ -3,6 +3,7 @@ import '../css/App.css'
 import '../css/_variables.scss';
 import styled from "styled-components";
 import '../css/hover.css'
+import LogoDark from '../img/tw-official-logo.svg';
 
 const Btn = styled.input`
     font-size: 20px;
@@ -31,8 +32,22 @@ const ContactForm = styled.form`
 	
 	input[type=text]{
 		font-size: 20px;
+		
 	}
 	
+	input[type=text]:focus{
+		border-bottom: 2px solid #c8102e !important;
+    -webkit-box-shadow: 0 2px 0 0 #c8102e !important;
+    box-shadow: 0 2px 0 0 #c8102e !important;
+	}
+	
+`;
+
+const FormLogo = styled.img`
+	width: 50px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 `;
 
 class Form extends Component {
@@ -54,12 +69,15 @@ class Form extends Component {
 
 		return (
 			<ContactForm onSubmit={handleSubmit}>
-				<input id={'firstNameInput'} type={'text'} style={{width: '49%', marginRight: '2%'}} placeholder={'First Name'}/>
-				<input id={'lastNameInput'} type={'text'} style={{width: '49%'}} placeholder={'Last Name'}/>
-				<input id={'emailInput'} type={'text'} placeholder={'Email'}/>
-				<input id={'phoneInput'} type={'text'} placeholder={'Phone'}/>
-				<input id={'messageInput'} type={'text'} placeholder={'Message'}/>
-				<Btn type={'submit'} style={{width: '100%'}} className={'hvr-float'} placeholder={'Get Started'}/>
+					<div className={'row'} style={{margin: '50px 50px 0'}}>
+					<input id={'firstNameInput'} type={'text'} className={'col s12 m6'} placeholder={'First Name'} autoComplete={'off'}/>
+					<input id={'lastNameInput'} type={'text'} className={'col s12 m6'} placeholder={'Last Name'} autoComplete={'off'}/>
+					<input id={'emailInput'} type={'text'} placeholder={'Email'} autoComplete={'off'}/>
+					<input id={'phoneInput'} type={'text'} placeholder={'Phone'} autoComplete={'off'}/>
+					<input id={'messageInput'} type={'text'} placeholder={'Message'} autoComplete={'off'}/>
+					<Btn type={'submit'} style={{width: '100%'}} className={'hvr-float'} placeholder={'Get Started'}/>
+					<FormLogo src={LogoDark}/>
+				</div>
 			</ContactForm>
 		)
 	}

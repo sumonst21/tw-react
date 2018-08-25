@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import logo from '../img/tw-official-logo-white.svg';
 import '../css/App.css';
 import styled from 'styled-components';
+import ContactModal from './ContactModal';
 
 const HeaderSection = styled.header`
-    background-color: #c8102e;
+  background-color: #c8102e;
 	border-bottom: 3px solid #af0f19;
 	height: 60px;
 	color: #fff;
@@ -13,6 +14,15 @@ const HeaderSection = styled.header`
 	position: sticky;
 	width: 100%;
 	top: 0;
+	
+	h3{
+	  color: #333;
+	}
+	
+	.closeButton{
+	  color: #333;
+	}
+	
 `;
 
 const HeaderLogo = styled.img`
@@ -29,12 +39,12 @@ const HeaderLogo = styled.img`
 const NavMenu = styled.ul`
     display: inline-block;
     float: right;
-	margin-right: 50px;
-	margin-top: 8px;
-	
-	@media (max-width: 500px) {
-	    display: none;
-	}
+    margin-right: 50px;
+    margin-top: 8px;
+    
+    @media (max-width: 500px) {
+        display: none;
+    }
 	
 `;
 
@@ -45,19 +55,19 @@ const NavMenuItem = styled.li`
     
         &#contact-cta{
             background-color: #fff;
-	        color: #c8102e;
-	        padding: 5px 20px;
-	        margin-left: 10px;
-	        // border-radius: 4px;
+            color: #c8102e;
+            padding: 5px 20px;
             transition: opacity 0.3s ease-in-out;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
         &#contact-cta:hover{
             opacity: 0.85;
-            // border: 2px solid #fff;
-            // border-bottom: 3px solid #eee;
         }
+        
+        
+        
+        
 `;
 
 const MobileNavMenu = styled.ul`
@@ -109,7 +119,8 @@ class Header extends Component {
   constructor(props){
     super(props);
     this.state = {
-      showMobileMenu: false
+      showMobileMenu: false,
+      showModal: false
     }
   }
   toggleMobileMenu() {
@@ -117,6 +128,14 @@ class Header extends Component {
       showMobileMenu: !this.state.showMobileMenu
     });
   }
+
+  toggleModal() {
+    this.setState({
+      showModal: !this.state.showModal
+    });
+  }
+
+
   render() {
     return (
         <HeaderSection>
@@ -126,15 +145,24 @@ class Header extends Component {
             <NavMenu>
                 <a href="/about"><NavMenuItem>About</NavMenuItem></a>
                 <a href="/projects"><NavMenuItem>Projects</NavMenuItem></a>
-                <a href="/contact"><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
+                <a onClick={this.toggleModal.bind(this)}><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
             </NavMenu>
             <MobileNavMenuToggle onClick={this.toggleMobileMenu.bind(this)} className={'material-icons'}>menu</MobileNavMenuToggle>
+          {/* MOBILE MENU */}
           {this.state.showMobileMenu ?
             <MobileNavMenu>
               <a href="/about"><MobileNavMenuItem>About</MobileNavMenuItem></a>
               <a href="/projects"><MobileNavMenuItem>Projects</MobileNavMenuItem></a>
-              <a href="/contact"><MobileNavMenuItem id={'contact-cta'}>Let's Chat</MobileNavMenuItem></a>
+              <a onClick={this.toggleModal.bind(this)}><NavMenuItem id={'contact-cta'}>Let's Chat</NavMenuItem></a>
             </MobileNavMenu>
+            :null
+          }
+          {/* CONTACT MODAL*/}
+          {this.state.showModal ?
+            <ContactModal
+              title={'Reach Out'}
+              closeModal={this.toggleModal.bind(this)}
+            />
             :null
           }
         </HeaderSection>
