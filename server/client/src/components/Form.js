@@ -7,6 +7,7 @@ import LogoDark from '../img/tw-official-logo.svg';
 
 const Btn = styled.input`
     font-size: 20px;
+    font-family: 'Inconsolata', monospace !important;
     height: 50px;
     width: fit-content;
     padding: 0 33px;
@@ -26,6 +27,7 @@ const Btn = styled.input`
 `;
 
 const ContactForm = styled.form`
+	font-family: 'Inconsolata', monospace !important;
 	max-width: 500px;
 	display: block;
 	margin: 0 auto;

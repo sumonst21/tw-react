@@ -16,9 +16,9 @@ const PopupMat = styled.div`
 
 const Popup = styled.div`
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	right: 20%;
-	bottom: 20%;
+	bottom: 10%;
 	left: 20%;
 	max-width: 600px;
 	max-height: 650px;
