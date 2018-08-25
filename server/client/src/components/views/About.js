@@ -66,20 +66,24 @@ const AboutMe = styled.div`
 		font-size: 20px;
 	}
 	h6{
-		font-weight: 700;
-		font-size: 22px;
+		font-weight: 300;
+		font-size: 30px;
         line-height: 1.5;
+        margin-bottom: 50px;
 	}
 	.codeSnippet {
 		background: #c8102e;
 		// filter: invert(100%);
-		padding: 5px 20px;
+		padding: 5px 20px;git 
 		height: 50px;
 		width: auto;
 	}
 	.aboutPics img{
 		width: 100%;
 		object-fit: contain;
+	}
+	.aboutPics img:last-child{
+		margin-bottom: 50px;
 	}
 `;
 
@@ -110,7 +114,6 @@ class About extends Component{
 		                </div>
 
 	                    <br/>
-
 		                <h6>Here's a few of the technologies that I'm most familiar with...</h6>
 	                </AboutMe>
                 </div>

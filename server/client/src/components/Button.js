@@ -16,6 +16,7 @@ const Btn = styled.button`
     text-transform: uppercase;
     border: none;
     letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
 
     &:focus {
         outline: none;
