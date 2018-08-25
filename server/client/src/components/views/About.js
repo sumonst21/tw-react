@@ -73,10 +73,10 @@ const AboutMe = styled.div`
 	}
 	.codeSnippet {
 		background: #c8102e;
-		// filter: invert(100%);
-		padding: 5px 20px;git 
-		height: 50px;
-		width: auto;
+		padding: 5px 10px;
+	    width: auto;
+	    height: 40px;
+	    margin-top: 10px;
 	}
 	.aboutPics img{
 		width: 100%;
