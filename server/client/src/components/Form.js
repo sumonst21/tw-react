@@ -55,7 +55,7 @@ const FormLogo = styled.img`
 class Form extends Component {
 	render() {
 		function handleSubmit(e) {
-			e.preventDefault();
+			// e.preventDefault();
 
 			const inputs = document.querySelectorAll('input');
 
@@ -70,7 +70,7 @@ class Form extends Component {
 		}
 
 		return (
-			<ContactForm onSubmit={handleSubmit}>
+			<ContactForm method={'POST'} action={'/thank-you'} onSubmit={handleSubmit}>
 					<div className={'row'} style={{margin: '50px 50px 0'}}>
 					<input id={'firstNameInput'} type={'text'} className={'col s12 m6'} placeholder={'First Name'} autoComplete={'off'}/>
 					<input id={'lastNameInput'} type={'text'} className={'col s12 m6'} placeholder={'Last Name'} autoComplete={'off'}/>
