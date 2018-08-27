@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import TypeIt from 'typeit';
 
 class TypeWriterText extends Component {
-	constructor (props) {
-		super(props);
-	}
 	componentDidMount () {
 		new TypeIt(this.el, this.props);
 	}

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496baa8d-581c-47f8-af5a-a3c098cf68c5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.49a2b286.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.49a2b286.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/Tech.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/Tech.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/views/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/views/About.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +25,7 @@
           <entry key="css" value="15" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="9" />
-          <entry key="js" value="59" />
+          <entry key="js" value="60" />
           <entry key="json" value="10" />
           <entry key="md" value="3" />
           <entry key="png" value="1" />
@@ -42,7 +40,7 @@
           <entry key="HTML" value="9" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="59" />
+          <entry key="JavaScript" value="60" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="3" />
@@ -54,7 +52,7 @@
         <counts>
           <entry key="css" value="1112" />
           <entry key="html" value="14" />
-          <entry key="js" value="10128" />
+          <entry key="js" value="10515" />
           <entry key="json" value="1" />
           <entry key="md" value="165" />
           <entry key="scss" value="21" />
@@ -65,7 +63,7 @@
           <entry key="CSS" value="1112" />
           <entry key="HTML" value="14" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="10128" />
+          <entry key="JavaScript" value="10515" />
           <entry key="Markdown" value="165" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -86,11 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/client/src/components/Tech.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="391">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -98,13 +96,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/client/src/components/views/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="2506">
+              <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#198#229#0" expanded="true" />
+                <element signature="e#728#773#0" expanded="true" />
+                <element signature="e#1381#1430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/client/src/components/TypeWriterText.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,15 +224,15 @@
         <option value="$PROJECT_DIR$/server/client/src/components/views/Home.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Card.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/views/Projects.js" />
-        <option value="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/ProjectCard.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Hero.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/ContactModal.js" />
-        <option value="$PROJECT_DIR$/server/client/src/components/Tech.js" />
         <option value="$PROJECT_DIR$/server/client/package.json" />
         <option value="$PROJECT_DIR$/server/client/src/css/App.css" />
         <option value="$PROJECT_DIR$/server/client/src/components/Button.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Form.js" />
+        <option value="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" />
+        <option value="$PROJECT_DIR$/server/client/src/components/Tech.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/views/About.js" />
       </list>
     </option>
@@ -242,7 +255,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
+    <option name="x" value="339" />
     <option name="y" value="23" />
     <option name="width" value="941" />
     <option name="height" value="772" />
@@ -294,6 +307,15 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
@@ -353,12 +375,12 @@
       <workItem from="1534380419725" duration="21708000" />
       <workItem from="1534547842126" duration="1984000" />
       <workItem from="1534904983410" duration="23887000" />
-      <workItem from="1535160738489" duration="11677000" />
+      <workItem from="1535160738489" duration="14652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71857000" />
+    <option name="totallyTimeSpent" value="74832000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -370,8 +392,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="23" width="941" height="772" extended-state="0" />
-    <editor active="true" />
+    <frame x="339" y="23" width="941" height="772" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23152174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -385,7 +406,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31323528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5397059" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -538,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/TypeWriterText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/ProjectCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -573,16 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/Tech.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,10 +637,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/TypeWriterText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/views/About.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="2506">
+          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#198#229#0" expanded="true" />
+            <element signature="e#728#773#0" expanded="true" />
+            <element signature="e#1381#1430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/Tech.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

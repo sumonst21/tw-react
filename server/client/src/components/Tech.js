@@ -15,7 +15,7 @@ class Tech extends Component {
   render() {
     return(
       <Technology className="col m3 hvr-float">
-            <img className={'card'} src={this.props.src}/>
+            <img className={'card'} alt={this.props.alt} src={this.props.src}/>
       </Technology>
     )
   }
