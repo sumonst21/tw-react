@@ -1,29 +1,44 @@
 const express = require('express');
-const path = require('path');
-const bodyParser = require('body-parser');
-const mongodb = require('mongodb');
-const connection = mongodb.MongoClient.connect('mongodb://timwheelercom:TWheeler91$@ds133632.mlab.com:33632/timwheelercom', { useNewUrlParser: true });
-
 const app = express();
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const formSchema = require('./models/Form');
+const keys = require('./config/keys');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(path.resolve(__dirname, 'public')));
+const url = keys.mongo;
 
-app.post('/thank-you', (req, res) => {
-  connection.then((db) => {
-    delete req.body._id; // for security reasons
-    db.collection('forms').insertOne(req.body);
-  });
-  res.send('Thank you! \n' + JSON.stringify(req.body));
+mongoose.Promise = global.Promise;
+
+mongoose.connect(url, {useNewUrlParser: true}, (err, db) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(`Connected to ${db.db.databaseName}`);
+  }
 });
 
-// app.get('/thank-you', (req, res) => {
-//   connection.then((db) => {
-//     db.collection('forms').find({}).toArray().then((forms) => {
-//       res.status(200).json(forms);
-//     })
-//   })
-// });
+const Form = mongoose.model("forms", formSchema);
+
+app.post('/thank-you', (req, res) => {
+  const formData = new Form(req.body);
+  console.log('req.body:', req.body);
+
+  formData.save()
+    .then(form => {
+      console.log('form:', form);
+      res.send("Form submitted.\n" + JSON.stringify(req.body));
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(400).send(`Form was not submitted. Error: ${err}`);
+    });
+});
+
+app.get('/thank-you', (req, res) => {
+  res.send('Thank You');
+});
 
 
 const PORT = 5000;

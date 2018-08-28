@@ -26,5 +26,10 @@
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/thank-you": {
+      "target": "http://localhost:5000"
+    }
   }
 }
