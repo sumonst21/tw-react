@@ -60,6 +60,7 @@ const NavMenuItem = styled.li`
             transition: opacity 0.3s ease-in-out;
             text-transform: uppercase;
             letter-spacing: 2px;
+            margin-left: 10px;
         }
         &#contact-cta:hover{
             opacity: 0.85;

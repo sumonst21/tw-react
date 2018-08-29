@@ -21,11 +21,12 @@ const Popup = styled.div`
 	bottom: 10%;
 	left: 20%;
 	max-width: 600px;
-	max-height: 650px;
+	max-height: 550px;
 	margin: auto;
 	background: #fff;
 	border: double 10px #3333330f;
 	box-sizing: border-box;
+	overflow: scroll;
 	
 	// Override default styling for Button.js component
 	input[type=submit]{
