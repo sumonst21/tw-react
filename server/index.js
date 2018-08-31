@@ -11,8 +11,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 mongoose.Promise = global.Promise;
 
-console.log('process:', process.env.NODE_ENV);
-
 mongoose.connect(keys.mongo, {useNewUrlParser: true}, (err, db) => {
   if (err) {
     console.log(err)
@@ -38,9 +36,9 @@ app.post('/thank-you', (req, res) => {
     });
 });
 
-// app.get('/thank-you', (req, res) => {
-//   res.send('Thank You');
-// });
+app.get('/thank-you', (req, res) => {
+  res.send('Thank You');
+});
 
 
 if (process.env.NODE_ENV === 'production') {
@@ -60,3 +58,5 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
 });
+
+console.log('process:', process.env.NODE_ENV || PORT);
