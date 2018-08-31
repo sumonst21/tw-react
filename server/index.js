@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const formSchema = require('./models/Form');
 const keys = require('./config/keys');
-const path = require('path');
+// const prod = require('./config/prod');
+const path = require('path').default;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -42,6 +43,13 @@ app.post('/thank-you', (req, res) => {
 app.get('/thank-you', (req, res) => {
   res.send('Thank You');
 });
+
+console.log('process.env[0]', process.env[0]);
+console.log('process.env[1]', process.env[1]);
+console.log('process.env[2]', process.env[2]);
+console.log('process.env[3]', process.env[3]);
+
+
 
 
 if (process.env.NODE_ENV === 'production') {
