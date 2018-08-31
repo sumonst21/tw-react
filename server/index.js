@@ -11,6 +11,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 mongoose.Promise = global.Promise;
 
+console.log('process:', process.env.NODE_ENV);
+
 mongoose.connect(keys.mongo, {useNewUrlParser: true}, (err, db) => {
   if (err) {
     console.log(err)
