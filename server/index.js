@@ -7,11 +7,11 @@ const keys = require('./config/keys');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-const url = keys.mongo;
+// const url = keys.mongo;
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(url, {useNewUrlParser: true}, (err, db) => {
+mongoose.connect(keys.mongo, {useNewUrlParser: true}, (err, db) => {
   if (err) {
     console.log(err)
   } else {
