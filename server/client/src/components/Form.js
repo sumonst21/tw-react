@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import '../css/App.css'
-import '../css/_variables.scss';
+import React, { Component } from "react";
+import "../css/App.css";
+import "../css/_variables.scss";
 import styled from "styled-components";
-import '../css/hover.css'
-import LogoDark from '../img/tw-official-logo.svg';
+import "../css/hover.css";
+import LogoDark from "../img/tw-official-logo.svg";
 
 const Btn = styled.input`
     font-size: 20px;
@@ -56,9 +56,7 @@ class Form extends Component {
 	render() {
 		function handleSubmit(e) {
 			// e.preventDefault();
-
 			const inputs = document.querySelectorAll('input');
-
 			for (var i in inputs) {
 				if (inputs[i] === '') {
 					console.log('Please complete the form');
@@ -66,8 +64,14 @@ class Form extends Component {
 					console.log(inputs[i].value);
 				}
 			}
-
 		}
+    function getTimeStamp() {
+      const timeStamp = new Date();
+      const date = timeStamp.toLocaleDateString();
+			const time = timeStamp.toLocaleTimeString();
+
+      return date + " " + time;
+    }
 
 		return (
 			<ContactForm method={'POST'} action={'/thank-you'} onSubmit={handleSubmit}>
@@ -77,6 +81,7 @@ class Form extends Component {
 					<input id={'emailInput'} name={'email'} type={'text'} placeholder={'Email'} autoComplete={'off'}/>
 					<input id={'phoneInput'} name={'phone'} type={'text'} placeholder={'Phone'} autoComplete={'off'}/>
 					<input id={'messageInput'} name={'message'} type={'text'} placeholder={'Message'} autoComplete={'off'}/>
+						<input id={'timeStamp'} name={'timeStamp'} type={'hidden'} value={getTimeStamp()}/>
 					<Btn type={'submit'} style={{width: '100%'}} className={'hvr-float'} placeholder={'Get Started'}/>
 					<FormLogo src={LogoDark}/>
 				</div>
