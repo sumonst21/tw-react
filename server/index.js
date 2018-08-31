@@ -20,9 +20,11 @@ mongoose.connect(keys.mongo, {useNewUrlParser: true}, (err, db) => {
   }
 });
 
-const Form = mongoose.model("forms", formSchema);
 
 app.post('/thank-you', (req, res) => {
+
+  const Form = mongoose.model("forms", formSchema);
+
   const formData = new Form(req.body);
   console.log('req.body:', req.body);
 
@@ -46,19 +48,14 @@ if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // Like main.js or main.css
 
-  // Original
-  // app.use(express.static('client/build'));
-
-  app.use(express.static(path.join(__dirname, 'client/build')));
+  app.use(express.static('client/build'));
 
   // Express will serve up index.html
   // If it doesn't recognize route
-  // app.get('*', (req, res) => {
-  //   res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  // });
-  app.get('/*', (req, res) => {
+  app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
+
 }
 
 const PORT = 5000;
