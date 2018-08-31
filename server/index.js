@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const formSchema = require('./models/Form');
 const keys = require('./config/keys');
+const path = require('path');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -44,12 +45,18 @@ app.get('/thank-you', (req, res) => {
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // Like main.js or main.css
-  app.use(express.static('client/build'));
+
+  // Original
+  // app.use(express.static('client/build'));
+
+  app.use(express.static(path.join(__dirname, 'client/build')));
 
   // Express will serve up index.html
   // If it doesn't recognize route
-  const path = require('path');
-  app.get('*', (req, res) => {
+  // app.get('*', (req, res) => {
+  //   res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  // });
+  app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }

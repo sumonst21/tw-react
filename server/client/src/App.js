@@ -5,7 +5,8 @@ import './css/_variables.scss';
 import Home from './components/views/Home';
 import About from './components/views/About';
 import Projects from './components/views/Projects';
-import Contact from './components/views/Contact';
+import Thanks from './components/views/Thanks';
+// import Contact from './components/views/Contact';
 
 // import Header from './components/Header'
 
@@ -18,7 +19,7 @@ class App extends Component {
           <Route exact path={'/'} component={Home}/>
           <Route exact path={'/about'} component={About}/>
           <Route exact path={'/projects'} component={Projects}/>
-          {/*<Route exact path={'/thank-you'} component={Home}/>*/}
+          <Route exact path={'/thank-you'} component={Thanks}/>
         </div>
       </BrowserRouter>
     );
