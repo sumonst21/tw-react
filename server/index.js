@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const formSchema = require('./models/Form');
 const keys = require('./config/keys');
+
 // const prod = require('./config/prod');
-const path = require('path').default;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -40,23 +40,16 @@ app.post('/thank-you', (req, res) => {
     });
 });
 
-app.get('/thank-you', (req, res) => {
-  res.send('Thank You');
-});
-
-console.log('process.env[0]', process.env[0]);
-console.log('process.env[1]', process.env[1]);
-console.log('process.env[2]', process.env[2]);
-console.log('process.env[3]', process.env[3]);
-
-
-
+// app.get('/thank-you', (req, res) => {
+//   res.send('Thank You');
+// });
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // Like main.js or main.css
-
   app.use(express.static('client/build'));
+
+  const path = require('path').default;
 
   // Express will serve up index.html
   // If it doesn't recognize route
@@ -66,7 +59,7 @@ if (process.env.NODE_ENV === 'production') {
 
 }
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
 });
