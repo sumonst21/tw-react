@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496baa8d-581c-47f8-af5a-a3c098cf68c5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.6442c7c5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.6442c7c5.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.bd363220.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.bd363220.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/public/index.html" afterDir="false" />
@@ -74,7 +77,7 @@
         <counts>
           <entry key="css" value="1112" />
           <entry key="html" value="77" />
-          <entry key="js" value="10738" />
+          <entry key="js" value="10740" />
           <entry key="json" value="90" />
           <entry key="md" value="165" />
           <entry key="scss" value="21" />
@@ -85,7 +88,7 @@
           <entry key="CSS" value="1112" />
           <entry key="HTML" value="77" />
           <entry key="JSON" value="90" />
-          <entry key="JavaScript" value="10738" />
+          <entry key="JavaScript" value="10740" />
           <entry key="Markdown" value="165" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -114,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="82">
+              <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -386,7 +389,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105320000" />
+    <option name="totallyTimeSpent" value="105520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +404,7 @@
     <frame x="0" y="23" width="1232" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30470684" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30470684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -413,7 +416,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49958298" visible="true" weight="0.452454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49958298" visible="true" weight="0.452454" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500417" side_tool="true" weight="0.47045192" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -773,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="82">
+          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

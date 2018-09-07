@@ -31,7 +31,9 @@ const ContactForm = styled.form`
 	display: block;
 	margin: 0 auto;
 
-	input[type='text'] {
+	input[type='text'],
+	input[type='email'],
+	input[type='tel'] {
 		font-size: 20px;
 		font-family: 'Inconsolata', monospace;
 	}
