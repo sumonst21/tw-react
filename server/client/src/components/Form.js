@@ -84,6 +84,7 @@ class Form extends Component {
 				data-netlify={'true'}
 			>
 				<div className={'row'} style={{ margin: '50px 50px 0' }}>
+					<input type={'hidden'} name={'contact'} value={'contact'} />
 					<input
 						id={'firstNameInput'}
 						name={'firstName'}
