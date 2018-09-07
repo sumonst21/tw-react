@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496baa8d-581c-47f8-af5a-a3c098cf68c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" />
@@ -116,8 +114,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1112" />
-          <entry key="html" value="60" />
-          <entry key="js" value="10713" />
+          <entry key="html" value="77" />
+          <entry key="js" value="10721" />
           <entry key="json" value="90" />
           <entry key="md" value="165" />
           <entry key="scss" value="21" />
@@ -126,9 +124,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1112" />
-          <entry key="HTML" value="60" />
+          <entry key="HTML" value="77" />
           <entry key="JSON" value="90" />
-          <entry key="JavaScript" value="10713" />
+          <entry key="JavaScript" value="10721" />
           <entry key="Markdown" value="165" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -157,29 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3059">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/client/src/components/TransparentHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/client/src/components/Hero.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+            <state relative-caret-position="-117">
+              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -190,17 +167,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/client/src/components/LogoWhite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="74">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -302,7 +270,6 @@
         <option value="$PROJECT_DIR$/server/client/src/components/views/Thanks.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Button.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/ContactModal.js" />
-        <option value="$PROJECT_DIR$/server/client/src/components/Form.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Header.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/ThankYou.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Tech.js" />
@@ -312,6 +279,7 @@
         <option value="$PROJECT_DIR$/server/client/src/components/TransparentHeader.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Hero.js" />
+        <option value="$PROJECT_DIR$/server/client/src/components/Form.js" />
         <option value="$PROJECT_DIR$/server/client/public/index.html" />
       </list>
     </option>
@@ -339,7 +307,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="52" />
+    <option name="y" value="23" />
     <option name="width" value="1232" />
     <option name="height" value="744" />
   </component>
@@ -382,14 +350,16 @@
               <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-react" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-react" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="emailTemplates" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -457,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104731000" />
+    <option name="totallyTimeSpent" value="105072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="52" width="1232" height="744" extended-state="0" />
+    <frame x="0" y="23" width="1232" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30470684" />
@@ -811,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/TypeWriterText.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -845,10 +805,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="74">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>

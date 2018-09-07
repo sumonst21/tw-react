@@ -99,14 +99,14 @@ class Form extends Component {
 					<input
 						id={'emailInput'}
 						name={'email'}
-						type={'text'}
+						type={'email'}
 						placeholder={'Email'}
 						autoComplete={'off'}
 					/>
 					<input
 						id={'phoneInput'}
 						name={'phone'}
-						type={'text'}
+						type={'tel'}
 						placeholder={'Phone'}
 						autoComplete={'off'}
 					/>
