@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import LogoWhite from "./LogoWhite";
+import LogoWhite from './LogoWhite';
 import styled from 'styled-components';
 import TypeWriterText from './TypeWriterText';
 import BackgroundImg from '../img/tw-consultant.svg';
@@ -14,11 +14,13 @@ const HeroSection = styled.section`
 `;
 
 const HeroOverlay = styled.div`
-	content: "";
+	content: '';
 	position: fixed;
 	overflow: scroll;
-	left: 0; right: 0;
-	top: 0; bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	background: rgba(200, 16, 46, 0.91);
 `;
 
@@ -43,31 +45,25 @@ const HeroContent = styled.div`
 `;
 
 class ThankYou extends Component {
-    render() {
-        return (
-          <HeroSection className={'container'}>
-            <HeroOverlay>
-              <HeroContainer className={'row valign-wrapper'}>
-                <HeroContent className={'col m12'}>
-                  <LogoWhite/>
-                  <div>
-	                  <HeroTitle>
-		                  <TypeWriterText
-
-			                  strings={'thank(you);'}
-			                  speed={100}
-	                  		/>
-		                  <div id={'type-it'}/>
-	                  </HeroTitle>
-                  </div>
-                </HeroContent>
-              </HeroContainer>
-            </HeroOverlay>
-          </HeroSection>
-        );
-    }
+	render() {
+		return (
+			<HeroSection className={'container'}>
+				<HeroOverlay>
+					<HeroContainer className={'row valign-wrapper'}>
+						<HeroContent className={'col m12'}>
+							<LogoWhite />
+							<div>
+								<HeroTitle>
+									<TypeWriterText strings={'thank(you);'} speed={100} />
+									<div id={'type-it'} />
+								</HeroTitle>
+							</div>
+						</HeroContent>
+					</HeroContainer>
+				</HeroOverlay>
+			</HeroSection>
+		);
+	}
 }
-
-
 
 export default ThankYou;

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import Form from './Form';
 
@@ -56,28 +56,32 @@ const ClosePopupButton = styled.button`
 	right: 0;
 	padding: 0 10px;
 	background: transparent;
-  border: none;
-  font-size: 20px;
-  font-weight: 900;
-  
-  &:focus{
-  	background-color: #c8102e;
-  	color: #fff;
-  }
-  
+	border: none;
+	font-size: 20px;
+	font-weight: 900;
+
+	&:focus {
+		background-color: #c8102e;
+		color: #fff;
+	}
 `;
 
-class ContactModal extends Component{
+class ContactModal extends Component {
 	render() {
 		return (
 			<PopupMat>
 				<Popup className={'col m12'}>
-          <ClosePopupButton className={'closeButton'} onClick={this.props.closeModal}>X</ClosePopupButton>
-					<h3 style={{textAlign: 'center'}}>{this.props.title}</h3>
-					<Form/>
+					<ClosePopupButton
+						className={'closeButton'}
+						onClick={this.props.closeModal}
+					>
+						X
+					</ClosePopupButton>
+					<h3 style={{ textAlign: 'center' }}>{this.props.title}</h3>
+					<Form />
 				</Popup>
 			</PopupMat>
-		)
+		);
 	}
 }
 

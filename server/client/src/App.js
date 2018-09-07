@@ -10,20 +10,19 @@ import Thanks from './components/views/Thanks';
 
 // import Header from './components/Header'
 
-
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <div>
-          <Route exact path={'/'} component={Home}/>
-          <Route exact path={'/about'} component={About}/>
-          <Route exact path={'/projects'} component={Projects}/>
-          <Route exact path={'/thank-you'} component={Thanks}/>
-        </div>
-      </BrowserRouter>
-    );
-  }
+	render() {
+		return (
+			<BrowserRouter>
+				<div>
+					<Route exact path={'/'} component={Home} />
+					<Route exact path={'/about'} component={About} />
+					<Route exact path={'/projects'} component={Projects} />
+					<Route exact path={'/thank-you'} component={Thanks} />
+				</div>
+			</BrowserRouter>
+		);
+	}
 }
 
 export default App;
