@@ -74,7 +74,7 @@ class Form extends Component {
     }
 
 		return (
-			<ContactForm method={'POST'} action={'/thank-you'} onSubmit={handleSubmit}>
+			<ContactForm method={'POST'} action={'/thank-you'} onSubmit={handleSubmit} name={"contact"} data-netlify={'true'}>
 					<div className={'row'} style={{margin: '50px 50px 0'}}>
 					<input id={'firstNameInput'} name={'firstName'} type={'text'} className={'col s12 m6'} placeholder={'First Name'} autoComplete={'off'}/>
 					<input id={'lastNameInput'} name={'lastName'} type={'text'} className={'col s12 m6'} placeholder={'Last Name'} autoComplete={'off'}/>
