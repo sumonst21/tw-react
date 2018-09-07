@@ -36,9 +36,11 @@ const ContactForm = styled.form`
 		font-family: 'Inconsolata', monospace;
 	}
 
-	input[type='text']:focus {
-		border-bottom: 2px solid #c8102e !important;
-		-webkit-box-shadow: 0 2px 0 0 #c8102e !important;
+	input[type='text']:focus,
+	input[type='email']:focus,
+	input[type='tel']:focus {
+		border-bottom: 1px solid #c8102e !important;
+		-webkit-box-shadow: 0 1px 0 0 #c8102e !important;
 		box-shadow: 0 2px 0 0 #c8102e !important;
 	}
 `;

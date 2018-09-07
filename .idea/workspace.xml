@@ -2,53 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496baa8d-581c-47f8-af5a-a3c098cf68c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/css/main.2f6e0450.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/css/main.2f6e0450.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.bd363220.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.bd363220.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/MaterialIcons-Regular.012cf6a1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/MaterialIcons-Regular.570eb838.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/MaterialIcons-Regular.a37b0c01.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/MaterialIcons-Regular.e79bfd88.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/_variables.571509ea.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-babel-opt.b7fdc5f1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-bootstrap4-opt.841cec11.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-c-opt.4259effc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-codesnippet.b36392b2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-consultant.cea2bbff.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-css3-opt.3b6edd99.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-digitalocean-opt.b34502ac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-dotnet-opt.574099e7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-express-opt.6abf0b56.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-firebase-opt.326a14b9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-github-opt.63f3302d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-github.d0a1965a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-googleads-opt.ff9e95e0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-googleanalytics-opt.aaa7be79.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-headshot-round.487b0bc5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-html5-opt.4b55d3c2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-illustrator-opt.6eada5a1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-javascript-opt.34ac1a18.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-linkedin.23ace475.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-mongo-opt.d514f274.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-netlify-opt.e98224b6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-nodejs-opt.fc78415b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-official-logo-white.177bec20.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-official-logo.6c93836c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-photoshop-opt.13967e6d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-project-chatbox.432892a6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-project-twitch-api.e012994a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-project-weather-app.acfb87e4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-project-wikipedia-api.047ff82f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-racetrack.63535b2b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-react-opt.79fb1ade.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-strtup.ee2606f1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-superbowl-li.50a4d54c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/media/tw-xd-opt.2ea10800.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/App.test.js" afterDir="false" />
@@ -115,7 +74,7 @@
         <counts>
           <entry key="css" value="1112" />
           <entry key="html" value="77" />
-          <entry key="js" value="10721" />
+          <entry key="js" value="10738" />
           <entry key="json" value="90" />
           <entry key="md" value="165" />
           <entry key="scss" value="21" />
@@ -126,7 +85,7 @@
           <entry key="CSS" value="1112" />
           <entry key="HTML" value="77" />
           <entry key="JSON" value="90" />
-          <entry key="JavaScript" value="10721" />
+          <entry key="JavaScript" value="10738" />
           <entry key="Markdown" value="165" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -152,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+            <state relative-caret-position="138">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -164,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="-47">
               <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
@@ -279,8 +238,8 @@
         <option value="$PROJECT_DIR$/server/client/src/components/TransparentHeader.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/TypeWriterText.js" />
         <option value="$PROJECT_DIR$/server/client/src/components/Hero.js" />
-        <option value="$PROJECT_DIR$/server/client/src/components/Form.js" />
         <option value="$PROJECT_DIR$/server/client/public/index.html" />
+        <option value="$PROJECT_DIR$/server/client/src/components/Form.js" />
       </list>
     </option>
   </component>
@@ -427,7 +386,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105072000" />
+    <option name="totallyTimeSpent" value="105320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,20 +764,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
+    <entry file="file://$PROJECT_DIR$/server/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-47">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/public/index.html">
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
