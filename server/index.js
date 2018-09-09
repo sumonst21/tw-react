@@ -40,10 +40,6 @@ app.post('/thank-you', (req, res) => {
     });
 });
 
-// app.get('/thank-you', (req, res) => {
-//   res.send('Thank You');
-// });
-
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // Like main.js or main.css
