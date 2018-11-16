@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496baa8d-581c-47f8-af5a-a3c098cf68c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/timothywheeler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.netlify" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.nvmrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/_redirects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/.nvmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/.netlify" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.366b09e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.366b09e5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/build/static/js/main.7889f699.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/build/static/js/main.7889f699.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/views/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/views/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +59,7 @@
         <counts>
           <entry key="css" value="1112" />
           <entry key="html" value="127" />
-          <entry key="js" value="10763" />
+          <entry key="js" value="10778" />
           <entry key="json" value="90" />
           <entry key="md" value="165" />
           <entry key="scss" value="21" />
@@ -76,7 +70,7 @@
           <entry key="CSS" value="1112" />
           <entry key="HTML" value="127" />
           <entry key="JSON" value="90" />
-          <entry key="JavaScript" value="10763" />
+          <entry key="JavaScript" value="10778" />
           <entry key="Markdown" value="165" />
           <entry key="SCSS" value="21" />
         </counts>
@@ -102,21 +96,24 @@
     <favorites_list name="tw-react" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/client/src/components/views/Projects.js">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="92">
+              <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/client/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/client/src/components/views/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="160">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -134,7 +131,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -251,13 +248,65 @@
               <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-react" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-react" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,9 +354,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Projects.js">
-    <configuration name="email-sig.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tw-react/server/client/public/email-sig.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tw-react/server/client/src/projects/weather-app/index.html" />
-    <configuration name="Projects.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Projects.js" working-dir="$PROJECT_DIR$/server/client/src/components/views" />
+    <configuration name="email-sig.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tw-react/server/client/public/email-sig.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tw-react/server/client/src/projects/weather-app/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Projects.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Projects.js" working-dir="$PROJECT_DIR$/server/client/src/components/views">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.email-sig.html" />
       <item itemvalue="JavaScript Debug.index.html" />
@@ -345,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118437000" />
+    <option name="totallyTimeSpent" value="118503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,48 +412,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="224" width="1233" height="827" extended-state="0" />
+    <frame x="0" y="23" width="1232" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30445546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.30470684" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32788798" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66460586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500417" side_tool="true" weight="0.47045192" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49958298" visible="true" weight="0.34705883" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66460586" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49958298" visible="true" weight="0.30252102" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500417" side_tool="true" weight="0.47045192" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32788798" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15695067" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="1" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.375" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,9 +484,7 @@
     <entry file="file://$PROJECT_DIR$/server/client/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/.netlify">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.netlify" />
     <entry file="file://$PROJECT_DIR$/server/client/build/_redirects" />
     <entry file="file://$PROJECT_DIR$/server/client/build/static/_redirects" />
     <entry file="file://$PROJECT_DIR$/server/client/build/favicon.ico">
@@ -447,13 +500,7 @@
     <entry file="file://$PROJECT_DIR$/server/client/build/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/_redirects">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/_redirects" />
     <entry file="file://$PROJECT_DIR$/server/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -615,13 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/build/projects/weather-app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/build/projects/weather-app/index.html" />
     <entry file="file://$PROJECT_DIR$/server/client/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -641,8 +682,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="92">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,28 +697,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/build/.netlify">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/build/.netlify" />
     <entry file="file://$PROJECT_DIR$/server/client/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/projects/twitch-api/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" lean-forward="true" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/WeatherApp.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/projects/wiki-viewer/animate.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/projects/weather-app/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/src/projects/twitch-api/index.html" />
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/WeatherApp.js" />
+    <entry file="file://$PROJECT_DIR$/server/client/src/projects/wiki-viewer/animate.css" />
+    <entry file="file://$PROJECT_DIR$/server/client/src/projects/weather-app/app.js" />
     <entry file="file://$PROJECT_DIR$/server/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -685,19 +715,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/TwitchApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/WikiViewer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/TwitchApi.js" />
+    <entry file="file://$PROJECT_DIR$/server/client/src/components/projects/WikiViewer.js" />
     <entry file="file://$PROJECT_DIR$/server/client/src/components/ProjectCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -721,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/client/src/components/views/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="160">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
