@@ -30,14 +30,16 @@ const ContactForm = styled.form`
 	max-width: 500px;
 	display: block;
 	margin: 0 auto;
-
+	
+	select,
 	input[type='text'],
 	input[type='email'],
 	input[type='tel'] {
 		font-size: 20px;
 		font-family: 'Inconsolata', monospace;
 	}
-
+	
+	select:focus,
 	input[type='text']:focus,
 	input[type='email']:focus,
 	input[type='tel']:focus {
@@ -55,31 +57,45 @@ const FormLogo = styled.img`
 `;
 
 class Form extends Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+      value: ''
+    };
+    this.handleChange = this.handleChange.bind(this);
+	}
+
+  static handleSubmit(e) {
+    // e.preventDefault();
+    const inputs = document.querySelectorAll('input');
+    for (let i in inputs) {
+      if (inputs[i] === '') {
+        console.log('Please complete the form');
+      } else {
+        console.log(inputs[i].value);
+      }
+    }
+  }
+
+  handleChange(e){
+		this.setState({ value: e.target.value });
+  }
+
+  static getTimeStamp() {
+    const timeStamp = new Date();
+    const date = timeStamp.toLocaleDateString();
+    const time = timeStamp.toLocaleTimeString();
+
+    return date + ' ' + time;
+  }
+
 	render() {
-		function handleSubmit(e) {
-			// e.preventDefault();
-			const inputs = document.querySelectorAll('input');
-			for (var i in inputs) {
-				if (inputs[i] === '') {
-					console.log('Please complete the form');
-				} else {
-					console.log(inputs[i].value);
-				}
-			}
-		}
-		function getTimeStamp() {
-			const timeStamp = new Date();
-			const date = timeStamp.toLocaleDateString();
-			const time = timeStamp.toLocaleTimeString();
-
-			return date + ' ' + time;
-		}
-
 		return (
 			<ContactForm
 				method={'POST'}
 				action={'/thank-you'}
-				onSubmit={handleSubmit}
+				onSubmit={Form.handleSubmit}
 				name={'contact'}
 				data-netlify={'true'}
 			>
@@ -115,6 +131,16 @@ class Form extends Component {
 						placeholder={'Phone'}
 						autoComplete={'off'}
 					/>
+
+					<select value={this.state.value} id={'service'} name={'service'} onChange={this.handleChange}>
+            <option value="" disabled defaultValue={""}>Service Needed</option>
+						<option value={"Software Development"}>Software Development</option>
+						<option value={"Consulting"}>Consulting</option>
+						<option value={"Skills Training"}>Skills Training</option>
+						<option value={"Public Speaking"}>Public Speaking</option>
+            <option value={"Other"}>Other</option>
+					</select>
+
 					<input
 						id={'messageInput'}
 						name={'message'}
@@ -126,7 +152,7 @@ class Form extends Component {
 						id={'timeStamp'}
 						name={'timeStamp'}
 						type={'hidden'}
-						value={getTimeStamp()}
+						value={Form.getTimeStamp()}
 					/>
 					<Btn
 						type={'submit'}

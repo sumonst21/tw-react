@@ -6,6 +6,7 @@ const formSchema = new Schema({
   lastName: String,
   email: String,
   phone: String,
+  service: String,
   message: String
 
 });

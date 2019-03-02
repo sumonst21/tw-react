@@ -21,7 +21,7 @@ const Popup = styled.div`
 	bottom: 10%;
 	left: 20%;
 	max-width: 600px;
-	max-height: 550px;
+	max-height: 600px;
 	margin: auto;
 	background: #fff;
 	border: double 10px #3333330f;
