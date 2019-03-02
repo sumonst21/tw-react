@@ -13,7 +13,7 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" && export NODE_ENV=production",
-    "netlify": "npm run build --prefix client && netlify deploy",
+    "netlify": "npm run build --prefix client && --prefix client/build netlify deploy",
     "heroku": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "webhook": "./sendgrid_webhook.sh"
   },
