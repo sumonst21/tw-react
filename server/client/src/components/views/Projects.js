@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header';
 import PageTitle from '../PageTitle';
 import ProjectCard from '../ProjectCard';
-import OpenSrc from '../../img/tw-project-opensrc.jpg'
+import OpenSrc from '../../img/tw-project-opensrc.jpg';
 import WeatherApp from '../../img/tw-project-weather-app.jpg';
 import TwitchApi from '../../img/tw-project-twitch-api.jpg';
 import WikipediaApi from '../../img/tw-project-wikipedia-api.jpg';
@@ -17,13 +17,13 @@ class Projects extends Component {
 				<div className={'container'}>
 					<div className="row">
 						<PageTitle pageTitle={'Projects'} />
-            <ProjectCard
-              src={OpenSrc}
-              alt={'OpenSrc.io'}
-              href={'https://opensrc.io'}
-              projectName={'OpenSrc.io'}
-              languages={'React, HTML, CSS'}
-            />
+						<ProjectCard
+							src={OpenSrc}
+							alt={'OpenSrc.io'}
+							href={'https://opensrc.io'}
+							projectName={'OpenSrc.io'}
+							languages={'React, HTML, CSS'}
+						/>
 						<ProjectCard
 							src={WeatherApp}
 							alt={'TW Weather App'}
@@ -34,7 +34,7 @@ class Projects extends Component {
 						<ProjectCard
 							src={TwitchApi}
 							alt={'TW Twitch API'}
-							href={'tw-twitch-api.netlify.com'}
+							href={'https://tw-twitch-api.netlify.com/'}
 							projectName={'Twitch API'}
 							languages={'JS, HTML, CSS'}
 						/>
@@ -52,12 +52,12 @@ class Projects extends Component {
 							projectName={'ChatBox.io'}
 							languages={'JS, HTML, CSS'}
 						/>
-            <ProjectCard
-              src={StayTuned}
-              alt={'TW Stay Tuned'}
-              href={'#'}
-              projectName={'Stay Tuned For More!'}
-            />
+						<ProjectCard
+							src={StayTuned}
+							alt={'TW Stay Tuned'}
+							href={'#'}
+							projectName={'Stay Tuned For More!'}
+						/>
 					</div>
 				</div>
 			</div>
