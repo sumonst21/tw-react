@@ -1,37 +1,38 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-// import M from 'materialize-css';
-// import Button from '../Button';
-// import ContactModal from '../ContactModal';
+
 import Header from '../Header';
 import PageTitle from '../PageTitle';
 import Tech from '../Tech';
 import HeadshotPic from '../../img/tw-headshot-round.png';
 import RaceTrackPic from '../../img/tw-racetrack.jpg';
 import SuperBowlPic from '../../img/tw-superbowl-li.jpg';
-import Babel from '../../img/tw-babel-opt.svg';
+import CodeSnippet from '../../img/tw-codesnippet.svg';
+
+import Angular from '../../img/tw-angular-opt.svg';
+import AWS from '../../img/tw-aws-opt.svg';
 import Bootstrap from '../../img/tw-bootstrap4-opt.svg';
 import C from '../../img/tw-c-opt.svg';
-import CodeSnippet from '../../img/tw-codesnippet.svg';
-// import CPlusPlus from '../../img/tw-cplusplus-opt.svg';
+import CSharp from '../../img/tw-csharp-opt.svg';
 import CSS3 from '../../img/tw-css3-opt.svg';
 import DigitalOcean from '../../img/tw-digitalocean-opt.svg';
-import Dotnet from '../../img/tw-dotnet-opt.svg';
 import Express from '../../img/tw-express-opt.svg';
 import Firebase from '../../img/tw-firebase-opt.svg';
-import Github from '../../img/tw-github-opt.svg';
-import GoogleAds from '../../img/tw-googleads-opt.svg';
-import GoogleAnalytics from '../../img/tw-googleanalytics-opt.svg';
+import Git from '../../img/tw-git-opt.svg';
+import Heroku from '../../img/tw-heroku-opt.svg';
 import HTML5 from '../../img/tw-html5-opt.svg';
-import Illustrator from '../../img/tw-illustrator-opt.svg';
+import Java from '../../img/tw-java-opt.svg';
 import JavaScript from '../../img/tw-javascript-opt.svg';
-// import Jquery from '../../img/tw-jquery.svg';
 import MongoDB from '../../img/tw-mongo-opt.svg';
 import Netlify from '../../img/tw-netlify-opt.svg';
 import NodeJS from '../../img/tw-nodejs-opt.svg';
-import Photoshop from '../../img/tw-photoshop-opt.svg';
+import PHP from '../../img/tw-php-opt.svg';
+import PostgreSQL from '../../img/tw-postgresql-opt.svg';
+import Python from '../../img/tw-python-opt.svg';
 import ReactLogo from '../../img/tw-react-opt.svg';
-import XD from '../../img/tw-xd-opt.svg';
+import Redux from '../../img/tw-redux-opt.svg';
+import Solidity from '../../img/tw-solidity-opt.svg';
+import TypeScript from '../../img/tw-typescript-opt.svg';
 
 const Headshot = styled.img`
 	width: 200px;
@@ -42,17 +43,6 @@ const Headshot = styled.img`
 	margin: 100px auto 0;
 	box-shadow: 0px 8px 20px 0px #919191;
 `;
-
-// const ImgSection = styled.div`
-// 	  width: 50%;
-// 	  height: auto;
-// 	  position: inherit;
-// 	  background-attachment: fixed;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-position: center left;
-//
-// `;
 
 const TechSection = styled.div`
 	max-width: 725px;
@@ -161,30 +151,34 @@ class About extends Component {
 							<Tech src={JavaScript} alt={'JavaScript Logo'} />
 							<Tech src={NodeJS} alt={'Node.js Logo'} />
 							<Tech src={ReactLogo} alt={'React Logo'} />
+							<Tech src={Git} alt={'Git Logo'} />
 
-							<Tech src={Github} alt={'Github Logo'} />
+							<Tech src={Java} alt={'Java Logo'} />
+							<Tech src={CSharp} alt={'CSharp Logo'}/>
+							<Tech src={Solidity} alt={'Solidity Logo'}/>
+							<Tech src={Redux} alt={'Redux Logo'}/>
+
+							<Tech src={Python} alt={'Python Logo'}/>
+							<Tech src={PHP} alt={'PHP Logo'}/>
+							<Tech src={PostgreSQL} alt={'PostgreSQL Logo'}/>
+							<Tech src={TypeScript} alt={'TypeScript Logo'}/>
+
+							<Tech src={Express} alt={'Express Logo'} />
+							<Tech src={Firebase} alt={'Firebase Logo'} />
+							<Tech src={MongoDB} alt={'MongoDB Logo'}/>
+							<Tech src={C} alt={'C Logo'} />
+
+							<Tech src={Angular} alt={'Angular Logo'} />
 							<Tech src={HTML5} alt={'HTML5 Logo'} />
 							<Tech src={CSS3} alt={'CSS3 Logo'} />
 							<Tech src={Bootstrap} alt={'Bootstrap Logo'} />
 
-							<Tech src={Express} alt={'Express Logo'} />
-							<Tech src={Babel} alt={'Babel Logo'} />
-
-							<Tech src={C} alt={'C Logo'} />
-							<Tech src={Dotnet} alt={'Dotnet Logo'} />
-
-							<Tech src={Firebase} alt={'Firebase Logo'} />
-							<Tech src={MongoDB} alt={'MongoDB Logo'} />
 
 							<Tech src={DigitalOcean} alt={'DigitalOcean Logo'} />
+							<Tech src={Heroku} alt={'Heroku Logo'}/>
+							<Tech src={AWS} alt={'AWS Logo'}/>
 							<Tech src={Netlify} alt={'Netlify Logo'} />
 
-							<Tech src={GoogleAnalytics} alt={'Google Analytics Logo'} />
-							<Tech src={GoogleAds} alt={'Google Ads Logo'} />
-
-							<Tech src={Photoshop} alt={'Photoshop Logo'} />
-							<Tech src={Illustrator} alt={'Illustrator Logo'} />
-							<Tech src={XD} alt={'XD Logo'} />
 						</TechSection>
 					</div>
 				</div>
